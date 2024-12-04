@@ -1,0 +1,7 @@
+# Ignore specific files
+stars
+output.fitinfo
+final_results.csv
+
+# Ignore the plots_seds directory and its contents
+plots_seds/
