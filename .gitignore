@@ -2,6 +2,10 @@
 stars
 output.fitinfo
 final_results.csv
+exercise_ysos_solutions.ipynb
+data_prep.ipynb
+stars_to_fit
+sed_fitter_results.csv
 
 # Ignore the plots_seds directory and its contents
 plots_seds/

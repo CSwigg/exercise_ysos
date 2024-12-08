@@ -1,5 +1,26 @@
-# exercise_ysos
-<div style="color: white;">
+**Notebook Creator:** Cameren Swiggum  
+**Class:** Star Formation: From Molecular Clouds to Protostars (W2024)
+
+---
+
+##### Submit your solutions by uploading either the completed notebook with your solutions clearly visible or a PDF version of the notebook with all solutions displayed.
+
+##### If you have issues, you can post them on the github repository's issues section (https://github.com/CSwigg/exercise_ysos/issues), or you can contact me at cameren.swiggum@univie.ac.at
+
+---
+
+# Introduction: Exploring YSOs in Orion A
+
+In this exercise, you will analyze a catalog of stars located in the Orion A molecular cloud, observed at infrared wavelengths. This dataset provides key measurements such as fluxes, magnitudes, and extinction values, allowing us to explore the properties and evolutionary stages of young stellar objects (YSOs).
+
+Your tasks include:
+- Investigating the spectral energy distributions (SEDs) of selected stars.
+- Classifying stars based on their spectral indices and evolutionary stages.
+- Visualizing spatial distributions and extinction properties.
+- Fitting models to the data to estimate physical parameters like temperature, radius, and disk properties.
+
+
+---
 
 ## Model Fitting: Likelihood and Chi-Squared
 
