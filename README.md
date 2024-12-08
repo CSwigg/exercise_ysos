@@ -21,6 +21,27 @@ Your tasks include:
 
 
 ---
+## Model Fitting: Likelihood and Chi-Squared
+
+Model fitting is the process of finding the best parameters for a model that describe observed data. Two commonly used statistical methods for this purpose are the **likelihood function** and the **chi-squared ($\chi^2$) statistic**. These methods quantify the agreement between the model and the data, guiding the optimization of model parameters.
+
+---
+
+- **Chi-Squared Statistic ($\chi^2$)**:
+  - Measures the goodness-of-fit by summing the squared residuals normalized by their uncertainties:
+    $$\chi^2 = \sum_i \frac{\left(y_{\text{obs},i} - y_{\text{model},i}\right)^2}{\sigma_i^2}$$
+  - A smaller $\chi^2$ indicates a better fit.
+  - **Reduced Chi-Squared ($\chi^2_{\text{red}}$)** accounts for degrees of freedom:
+    $$\chi^2_{\text{red}} = \frac{\chi^2}{N - p}$$
+    where $N$ is the number of data points and $p$ is the number of model parameters.
+
+- **Likelihood Function ($\mathcal{L}$)**:
+  - Represents the probability of observing the data given a model:
+    $$\mathcal{L}(\theta) = \prod_i \frac{1}{\sqrt{2\pi}\sigma_i} \exp \left( -\frac{\left(y_{\text{obs},i} - y_{\text{model},i}(\theta)\right)^2}{2\sigma_i^2} \right)$$
+  - In practice, the **log-likelihood** is maximized to simplify computations:
+    $$\ln \mathcal{L}(\theta) = -\frac{1}{2} \sum_i \left[ \ln(2\pi\sigma_i^2) + \frac{\left(y_{\text{obs},i} - y_{\text{model},i}(\theta)\right)^2}{\sigma_i^2} \right]$$
+
+---
 
 # SED Fitting with SEDFitter
 
