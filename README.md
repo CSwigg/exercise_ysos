@@ -22,7 +22,7 @@ Your tasks include:
 
 ---
 
-### SED Fitting with SEDFitter
+# SED Fitting with SEDFitter
 
 The equations above directly relate to fitting the spectral energy distributions (SEDs) of young stellar objects (YSOs):
 
